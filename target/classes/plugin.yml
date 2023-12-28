@@ -1,0 +1,15 @@
+name: Deathbans
+version: '1.0'
+main: me.twostinkysocks.deathbans.Deathbans
+api-version: '1.20'
+permissions:
+  deathban.bypass:
+    description: Bypass Deathbans
+    default: false
+  deathban.setplaytime:
+    description: Manually set playtime for a user
+    default: false
+commands:
+  setplaytime:
+    description: Manually set playtime for a user
+    usage: /<command>

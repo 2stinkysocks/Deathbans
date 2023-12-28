@@ -1,0 +1,6 @@
+prefix: '&8[&4DeathBan&8] &7'
+ban-command: tempban %player% %time% %reason%
+ops-bypass: true
+bypass-perm: deathban.bypass
+default-ban-reason: You were banned for %time% because you died | %death-cause%
+default-broadcast: '%player% was deathbanned for %time% | %death-cause%'
